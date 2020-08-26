@@ -1,0 +1,68 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+        h1, h2, h3, h4, h5, ul {
+            margin: 0;
+            font-size: 11px;
+        }
+
+        h1 {
+            font-size: 25px;
+            font-style: italic; 
+            display: block; 
+        } 
+
+        h2 {
+            font-size: 20px;
+        } 
+
+        article {
+            background-color: pink;
+            margin-bottom: 15px;
+            padding: 15px;
+            transition: all 0.3s;
+        }
+
+        article:hover {
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        }
+
+        .contenedor { 
+            display: flex;
+            flex-direction: row;
+            width: 900px;
+            margin: 0 auto;
+        }
+
+            header {
+            margin-bottom: 15px;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            margin-right: 10px;
+            border-right: 2px solid pink;
+            }
+
+        .img-avatar {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            margin-right: 15px;
+            border-radius: 100%;
+        }    
+
+        header div {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+
+
+
+.contenido { 
+    width: 70%;
+}
+

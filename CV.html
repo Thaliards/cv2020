@@ -7,106 +7,62 @@
     <title>Document</title>
 </head>
 <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-
 <style> 
-* {
-    font-family: 'Raleway', sans-serif;
-}
-
-        h1, h2, h3, h4, h5, ul {
-            margin: 0;
-            font-size: 11px;
-        }
-
-        h1 {
-            font-size: 25px;
-        } 
-
-        h2 {
-            font-size: 20px;
-        } 
-
-        article {
-            background-color: pink;
-            margin-bottom: 15px;
-            padding: 15px;
-            transition: all 0.3s;
-        }
-
-        article:hover {
-        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-        }
-
-        header {
-            margin-bottom: 15px;
-            padding: 15px;
-            display: flex;
-        }
-
-        .img-avatar {
-            width: 80px;
-            height: 80px;
-            object-fit: cover;
-            margin-right: 15px;
-            border-radius: 100%;
-        }    
-
-        header div {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-    </style>
+    @import url(estilos.css);
+</style>
 
 <body>
-    <header>
-    <img class= "img-avatar" src="IMG_7122 (1).JPG"/>   
-    <div>
-        <h1>Thalia Ruiz de Somocurcio</h1>
-        <h2>Jefe de Revenue Management y Pricing</h2>
-    </div> 
-</header>
-
-<article>
-    <h4>Educación</h4>
-    <ul>
-        <li>Universidad de Lima</li>
-        <li>Colegio Santa Ursula</li>
-    </ul>
-</article>
-
-<article>
-    <h4>Experiencia Laboral</h4>
-    <ul>
-        <li>Latam Airlines Group</li>
-        <li>Pacífico Seguros</li>
-    </ul>
-</article>
-
-<article>
-        <h4>Idiomas</h4>
+    <div class="contenedor">
+            <header>
+                    <img class= "img-avatar" alt="Thalia Ruiz de Somocurcio" src="IMG_7122 (1).JPG"/>   
+                    <div>
+                        <h1>Thalia Ruiz de Somocurcio</h1>
+                        <h2>Jefe de Revenue Management y Pricing</h2>
+                    </div> 
+                </header>
+    
+<div class="contenido">
+    <article>
+        <h4>Educación</h4>
         <ul>
-            <li>Inglés avanzado</li>
-            <li>Alemán básico</li>
+            <li>Universidad de Lima</li>
+            <li>Colegio Santa Ursula</li>
         </ul>
     </article>
-
-<article>
-         <h4>Extra</h4>
-         <ul>
-             <li>Fundadora de BEAH - Beauty Hopper</li>
-             <p>Junto a dos socios creamos un marketplace de servicios de bellez a domicilio. Conectamos clientes con profesionales independientes para ayudarlos a crecer su negocio.</p>
+    
+    <article>
+        <h4>Experiencia Laboral</h4>
+        <ul>
+            <li>Latam Airlines Group</li>
+            <li>Pacífico Seguros</li>
         </ul>
-</article>
-
- <article>
-         <h4>Conocimientos<h4>
-         <ul>
-             <li>Microsoft Office - Avanzado</li>
-             <li>Google Garage: Conceptos de Marketing Digital</li>
-             <li>Google Analytics</li>
-         </ul>
- </article>   
-
+    </article>
+    
+    <article>
+            <h4>Idiomas</h4>
+            <ul>
+                <li>Inglés avanzado</li>
+                <li>Alemán básico</li>
+            </ul>
+        </article>
+    
+    <article>
+             <h4>Extra</h4>
+             <ul>
+                 <li>Fundadora de BEAH - Beauty Hopper</li>
+                 <p>Junto a dos socios creamos un marketplace de servicios de bellez a domicilio. Conectamos clientes con profesionales independientes para ayudarlos a crecer su negocio.</p>
+            </ul>
+    </article>
+    
+     <article>
+             <h4>Conocimientos<h4>
+             <ul>
+                 <li>Microsoft Office - Avanzado</li>
+                 <li>Google Garage: Conceptos de Marketing Digital</li>
+                 <li>Google Analytics</li>
+             </ul>
+     </article>   
+    </div>
+<div>
 </body>
 </html>
