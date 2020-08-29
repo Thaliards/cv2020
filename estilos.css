@@ -17,12 +17,20 @@
             font-size: 20px;
         } 
 
+        .resaltado-morado {
+            background-color: blueviolet;
+            font-weight: bold;
+            color: white;
+        } 
+
         article {
             background-color: pink;
             margin-bottom: 15px;
             padding: 15px;
             transition: all 0.3s;
+            cursor: pointer;
         }
+
 
         article:hover {
         box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -38,8 +46,6 @@
             header {
             margin-bottom: 15px;
             padding: 15px;
-            display: flex;
-            flex-direction: column;
             width: 30%;
             margin-right: 10px;
             border-right: 2px solid pink;
@@ -53,12 +59,15 @@
             border-radius: 100%;
         }    
 
-        header div {
+        .imagen-titulo {
             display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
         }
 
+        .titulos {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }      
 
 
 
@@ -66,3 +75,22 @@
     width: 70%;
 }
 
+.active { 
+    background-color: blueviolet;
+    color: white;
+}  
+
+article ul { 
+    display: none;
+} 
+
+.active ul { 
+    display: block;
+}
+
+img.big {
+transform: scale(1.5);
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+  

@@ -7,6 +7,11 @@
     <title>Document</title>
 </head>
 <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+
+
 <style> 
     @import url(estilos.css);
 </style>
@@ -14,11 +19,18 @@
 <body>
     <div class="contenedor">
             <header>
-                    <img class= "img-avatar" alt="Thalia Ruiz de Somocurcio" src="IMG_7122 (1).JPG"/>   
-                    <div>
-                        <h1>Thalia Ruiz de Somocurcio</h1>
-                        <h2>Jefe de Revenue Management y Pricing</h2>
-                    </div> 
+                <div class="imagen-titulo">
+                        <img class= "img-avatar" alt="Thalia Ruiz de Somocurcio" src="IMG_7122 (1).JPG"/>   
+                        <div class="titulos">
+                            <h1>Thalia Ruiz de Somocurcio</h1>
+                            <h2>Jefe de Revenue Management y Pricing</h2>
+                       </div>
+                 </div>
+                    
+                        <p>
+                            Soy una <span class="resaltado-morado">experta</span> <br/>
+                            en estrategia.
+                        </p>
                 </header>
     
 <div class="contenido">
@@ -64,5 +76,15 @@
      </article>   
     </div>
 <div>
+    <script>
+        $ ('article').click(function () {
+        $ (this).toggleClass('active');    
+        });
+
+        $ ('img').click(function () {
+            $(this).toggleClass('big');
+
+        });  
+    </script>
 </body>
 </html>
