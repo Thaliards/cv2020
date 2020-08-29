@@ -17,6 +17,11 @@
             font-size: 20px;
         } 
 
+        p {
+            font-size: 15px;
+        }
+        
+
         .resaltado-morado {
             background-color: blueviolet;
             font-weight: bold;
@@ -76,8 +81,8 @@
 }
 
 .active { 
-    background-color: blueviolet;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
 }  
 
 article ul { 
@@ -92,5 +97,22 @@ img.big {
 transform: scale(1.5);
 box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
+
+.info-personal p{
+    text-align: left;
+}  
+
+.info-personal p strong {
+    font-size: 16px;
+    color: pink;
+}    
+
+.info-personal .ico{
+    background-color: black;
+    color: white;
+    padding: 4px;
+    height: 20px;
+    width: 20px;
+} 
 
   
